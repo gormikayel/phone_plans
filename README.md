@@ -23,11 +23,11 @@ After exceeding the package limits:
 1 GB of data: $7
 
 File path:
-/datasets/megaline_calls.csv Download dataset
-/datasets/megaline_internet.csv Download dataset
-/datasets/megaline_messages.csv Download dataset
-/datasets/megaline_plans.csv Download dataset
-/datasets/megaline_users.csv Download dataset
+* /datasets/megaline_calls.csv Download dataset
+* /datasets/megaline_internet.csv Download dataset
+* /datasets/megaline_messages.csv Download dataset
+* /datasets/megaline_plans.csv Download dataset
+* /datasets/megaline_users.csv Download dataset
 
 1. Prepare the data
 Convert the data to the necessary types
