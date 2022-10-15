@@ -69,9 +69,9 @@ The calls table (data on calls):
 * `user_id` — the identifier of the user making the call. 
 
 The messages table (data on texts):
-`id` — unique text message identifier
-`message_date` — text message date
-`user_id` — the identifier of the user sending the text
+* `id` — unique text message identifier
+* `message_date` — text message date
+* `user_id` — the identifier of the user sending the text
 
 The internet table (data on web sessions):  
 * `id` — unique session identifier. 
