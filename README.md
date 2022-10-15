@@ -30,25 +30,25 @@ File path:
 * /datasets/megaline_users.csv Download dataset
 
 1. Prepare the data
-Convert the data to the necessary types
-Find and eliminate errors in the data
+Convert the data to the necessary types. 
+Find and eliminate errors in the data. 
 Explain what errors you found and how you removed them.
 For each user, find:
-The number of calls made and minutes used per month
-The number of text messages sent per month
-The volume of data per month
+The number of calls made and minutes used per month. 
+The number of text messages sent per month. 
+The volume of data per month. 
 The monthly revenue from each user (subtract the free package limit from the total number of calls, text messages, and data; multiply the result by the calling plan value; add the monthly charge depending on the calling plan)
 
 2. Analyze the data
 Describe the customers' behavior. Find the minutes, texts, and volume of data the users of each plan require per month. Calculate the mean, variance, and standard deviation. Plot histograms. Describe the distributions.
 3. Test the hypotheses
-The average revenue from users of Ultimate and Surf calling plans differs.
-The average revenue from users in NY-NJ area is different from that of the users from other regions.
-How you formulated the null and alternative hypotheses.
-What criterion you used to test the hypotheses and why.
-4. Write an overall conclusion 
-Format: Complete the task in Jupyter Notebook. Put the programming code in code cells and text explanations in markdown cells, then apply formatting and headings.
-
+The average revenue from users of Ultimate and Surf calling plans differs.  
+The average revenue from users in NY-NJ area is different from that of the users from other regions.  
+How you formulated the null and alternative hypotheses.  
+What criterion you used to test the hypotheses and why.  
+4. Write an overall conclusion.    
+Format: Complete the task in Jupyter Notebook. Put the programming code in code cells and text explanations in markdown cells, then apply formatting and headings.  
+  
 
 ## Description of the data
 Remember! Megaline rounds seconds up to minutes, and megabytes to gigabytes. For calls, each individual call is rounded up: even if the call lasted just one second, it will be counted as one minute. For web traffic, individual web sessions are not rounded up. Instead, the total for the month is rounded up. If someone uses 1025 megabytes this month, they will be charged for 2 gigabytes.
